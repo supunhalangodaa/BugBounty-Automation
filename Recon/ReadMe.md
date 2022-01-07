@@ -2,5 +2,5 @@
 ##### Note: Don't use this to Run on Github Actions since Gituhb will Ban your account due to heavy traffic load
 
 #### 1. Clone this to your VPS
-        https://github.com/supunhalangodaa/BugBount-Automation/
+        git clone https://github.com/supunhalangodaa/BugBount-Automation/
 #### 2. 
