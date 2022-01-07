@@ -3,4 +3,18 @@
 
 #### 1. Clone this to your VPS
         git clone https://github.com/supunhalangodaa/BugBount-Automation/
-#### 2. 
+#### 2. Install Below Tools
+        go get -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder
+        go get -v github.com/projectdiscovery/dnsx/cmd/dnsx
+        go get -v github.com/projectdiscovery/naabu/v2/cmd/naabu
+        go get -v github.com/projectdiscovery/httpx/cmd/httpx
+        go get -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei
+        go get -v github.com/projectdiscovery/notify/cmd/notify
+#### 3. Now Schedule the Recon.sh with Cron Job or Tmux
+#### 4. To use Run Background sessions after logging off use below steps 
+        Start Tmux by typing Tmux in the shell 
+        Now Run Bash Recon.sh script
+        Detach the tmux session by typing Ctrl+b and then d
+        You can now safely log off from the remote machine, your process will keep running inside tmux
+        To check the session after logging Type "tmux attach" and you will get the tmux session
+        
