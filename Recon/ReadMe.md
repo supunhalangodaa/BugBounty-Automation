@@ -22,3 +22,5 @@
 #### To check the session after logging Type 
         "tmux attach" 
 #### And you will get the tmux session
+
+#### To get outputs to a Discord Server Edit the Config/notify-config.yaml File
